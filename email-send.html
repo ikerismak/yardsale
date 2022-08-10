@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/new_password.css">
+    <link rel="stylesheet" href="/static/email_sent.css">
     <title>createnewpassword</title>
 </head>
 <body>
@@ -22,30 +22,18 @@
         <div class="form-container">
             <img class="logo" src="/assets/logos/logo_yard_sale.svg" alt="logo" >
 
-            <h1 class="title"> Create new password</h1>
-            <p class="subtitle"> Enter a new password for your acount</p>
+            <h1 class="title">Email has sent!</h1>
+            <p class="subtitle"> Please check your inbox for intructions on how reset your password</p>  
+            <div class="email-image" >
+                <img src="./assets/icons/email.svg" alt="email">
+            </div>
 
-            <form action="/" class="password-form">
-
-                <label class="label-password" for="password">Password</label>
-                <input type="password" 
-                id="password"
-                placeholder="*******"
-                class="input-password">
-
-                <label class="label-password" for="password">Re-enter password</label>
-                <input type="password" 
-                id="reinsert-password"
-                placeholder="*******"
-                class="input-password">
-
-                <input type="submit"
-                value="Confirm"
-                class="primary-button"
-                class="login-button">
-
-
-            </form>
+           <button class="primary-button login-button">Login</button>
+            
+            <p class="resend">
+                <span>Didn't recive the email?</span>
+                <a href="/">Resend</a>
+            </p>
 
         </div>
 
