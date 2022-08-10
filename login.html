@@ -4,41 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/loging.css">
-    <title>Log in</title>
+    <link rel="stylesheet" href="static/new-account.css">
+    <title>My account</title>
 </head>
 <body>
     <div class="login">
         <div class="form-container">
-            <img class="logo" src="/assets/logos/logo_yard_sale.svg" alt="logo" >
-
+            
+            
           
 
             <form action="/" class="login-form">
 
-                <label class="label-email" for="email">Email</label>
-                <input type="email" 
-                id="email"
-                placeholder="email@example.com"
-                class="input-email">
+                <div class="input-info">
+                    <h1 class="title">My account</h1>
 
-                <label class="label-password" for="password">Password</label>
-                <input type="password" 
-                id="password"
-                placeholder="*******"
-                class="input-password">
+                    <label class="label-name" for="name">Name</label>
+                    <input type="text" 
+                    id="name"
+                    placeholder="Iker Imak Toscano Santos"
+                    class="input-name">
+    
+                    <label class="label-email" for="email">Email address</label>
+                    <input type="email" 
+                    id="email"
+                    placeholder="email@example.com"
+                    class="input-email">
+    
+                    <label class="label-password" for="password">Password</label>
+                    <input type="password" 
+                    id="password"
+                    placeholder="*******"
+                    class="input-password">
+
+                    
+                
+
+                </div>
 
                 <input type="submit"
                 value="Log in"
                 class="primary-button"
                 class="login-button">
                
-                <a href="/">forgot my password</a>
+
+               
+              
 
             </form>
 
+
+
+
             
-            <button class="secondary-button signUp-button">Sign up</button>
+           
 
         </div>
 
